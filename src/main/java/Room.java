@@ -3,7 +3,7 @@ public class Room {
     private String type;
     private int capacity;
     private double price;
-    private boolean status = false;
+    boolean status = false;
 
     // Método constutor para criar um quarto no sistema do hotel
     Room(int id, String type, int capacity, double price){
